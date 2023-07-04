@@ -151,6 +151,10 @@ def main():
     elif selected_sidebar == "IP Lookup":
         ip()
 
+    st.sidebar.markdown("<h1 style='font-family: Comic Sans MS; font-weight: 300; font-size: 12px;'>Because of free hosting he  "
+                        "is showing his own "
+                        "IP address...</h1></center>", unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
